@@ -25,7 +25,7 @@ app.post("/send-email", async (req, res) => {
   // Email options
   let mailOptions = {
     from: email, // Sender's email address
-    to: "yihunezewdie23@gmail.com", // Your email address
+    to: "your-email@gmail.com", // Your email address
     subject: "New Contact Form Submission",
     text: `
       Name: ${firstName} ${lastName}
